@@ -1,6 +1,7 @@
 'use strict'
 
 const markdownIt = require('markdown-it')
+const emoji = require('markdown-it-emoji');
 
 exports.name = 'markdown-it'
 exports.outputFormat = 'html'
@@ -15,6 +16,7 @@ exports.render = function (str, options) {
   delete options.renderRules
 
   const md = markdownIt(options)
+	md.use(emoji, [, options])
 
   // Enable render rules.
   Object.assign(md.renderer.rules, renderRules);
