@@ -1,6 +1,8 @@
-# jstransformer-markdown-it
+# jstransformer-markdown-it-emoji
 
-[markdown-it](https://github.com/markdown-it/markdown-it) support for [JSTransformers](http://github.com/jstransformers).
+Adds emoji support with [markdown-it](https://github.com/markdown-it/markdown-it) support for [JSTransformers](http://github.com/jstransformers).
+
+You must also install [markdown-it-emojis](https://github.com/markdown-it/markdown-it-emoji)
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-markdown-it/master.svg)](https://travis-ci.org/jstransformers/jstransformer-markdown-it)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-markdown-it/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-markdown-it)
